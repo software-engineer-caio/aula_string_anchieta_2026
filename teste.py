@@ -1,0 +1,12 @@
+usuario = input(' Insira seu usuario: ')
+print('Ola',usuario,', seja bem vindo a plataforma')
+print()
+senha = input('Insira sua senha: ')
+print('Acesso permitido')
+print()
+dominio = input('Insira seu dominio: ')
+print(usuario,' seu dominio é: ',dominio)
+print()
+email = (usuario + '@' + dominio)
+print(usuario,'seu email é: ',email)
+
