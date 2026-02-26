@@ -8,3 +8,4 @@ r = requests.get(anchieta)
 soup = BeautifulSoup(html_anchieta)
 for elem in soup.find_all('div',class_='elementor-widget-container'):
         print(elem.text)
+#puxar as informaçoes do site do anchieta
